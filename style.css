@@ -1,3 +1,62 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+body {
+    background: hsl(0, 0%, 95%);
+}
+
+.container {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 8%;
+}
+
+.card {
+    padding: 35px;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.sedan {
+    background: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+}
+
+.sedan .button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suv .button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .button {
+    color: hsl(179, 100%, 13%)
+}
+
+.button {
+    display: inline;
+    padding: 1em 2em;
+    border-radius: 50px;
+    font-family: 'Lexend Deca';
+    background:hsl(0, 0%, 95%);
+}
