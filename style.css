@@ -60,3 +60,13 @@ h1 {
     font-family: 'Lexend Deca';
     background:hsl(0, 0%, 95%);
 }
+
+/* Desktop styling */
+
+@media only screen and (min-width: 1030px) {
+    .container {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+    }
+  }
