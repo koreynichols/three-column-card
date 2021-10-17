@@ -53,12 +53,30 @@ h1 {
     color: hsl(179, 100%, 13%)
 }
 
+.sedan .button:hover{
+    background: hsl(31, 77%, 52%);
+}
+
+.suv .button:hover{
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury .button:hover{
+    background: hsl(179, 100%, 13%)
+}
+
 .button {
     display: inline;
     padding: 1em 2em;
     border-radius: 50px;
     font-family: 'Lexend Deca';
     background:hsl(0, 0%, 95%);
+}
+
+.button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 /* Desktop styling */
